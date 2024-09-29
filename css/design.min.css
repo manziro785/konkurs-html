@@ -45,6 +45,21 @@ h1, h2 {
 .wrappper-banner {
     background-image: url('../images/design/Frame\ 6\ 1.svg');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:contain;
+    background-origin: content-box;
     margin-top: -1.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+.laptop_img {
+    transform: scale(1.5); 
+    margin-top: -10rem;
+}
+
+body {
+    overflow-x: hidden;
 }
