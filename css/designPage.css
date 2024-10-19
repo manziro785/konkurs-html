@@ -5,8 +5,7 @@
     height: 100%;
 
 }
-.middle_ban img {
-  }
+
   .default_img {
     z-index: 12;
     position: relative;
@@ -19,19 +18,224 @@
 }
 .background_laptop {
     position: absolute;
-    top: -4.7rem;
-    left: 17rem;
+    top: -5%;
+    left: 18%;
     width: 70%;
     height: 130%;
+    max-height: 643px;
     
-    object-fit: cover;
-    transition: transform 4s ease-in-out, opacity 3s ease-in-out;
+    object-fit: contain; 
+        transition: transform 4s ease-in-out, opacity 3s ease-in-out;
 
     z-index: 1;
     transform: scale(0.1); /* Начальный размер */
     opacity: 0;
     animation: enlarge 1s ease-in-out forwards;
 
+}
+@media (min-width:1733px) {
+    .background_laptop {
+        position: absolute;
+        top: -5%;
+        left: 17%;
+    
+    }
+}
+@media (min-height:785px) {
+    .background_laptop {
+        position: absolute;
+        top: -3%;
+    
+    }
+}
+@media (min-height:802px) {
+    .background_laptop {
+        position: absolute;
+        top: 0%;
+    
+    }
+}
+@media (min-height:839px) {
+    .background_laptop {
+        position: absolute;
+        top: 3%;
+    
+    }
+}
+@media (min-height:871px) {
+    .background_laptop {
+        position: absolute;
+        top: 6%;
+    
+    }
+}
+@media (min-height:901px) {
+    .background_laptop {
+        position: absolute;
+        top: 8%;
+    
+    }
+}
+@media (min-height:931px) {
+    .background_laptop {
+        position: absolute;
+        top: 10%;
+    
+    }
+}
+@media (min-height:961px) {
+    .background_laptop {
+        position: absolute;
+        top: 12%;
+    
+    }
+}
+@media (min-height:991px) {
+    .background_laptop {
+        position: absolute;
+        top: 13%;
+    
+    }
+}
+@media (min-height:1021px) {
+    .background_laptop {
+        position: absolute;
+        top: 14%;
+    
+    }
+}
+@media (min-height:1051px) {
+    .background_laptop {
+        position: absolute;
+        top: 15%;
+    
+    }
+}
+@media (min-height:1081px) {
+    .background_laptop {
+        position: absolute;
+        top: 17%;
+    
+    }
+}
+@media (min-height:1111px) {
+    .background_laptop {
+        position: absolute;
+        top: 18%;
+    
+    }
+}
+@media (min-height:1141px) {
+    .background_laptop {
+        position: absolute;
+        top: 19%;
+    
+    }
+}
+.default_img_small {
+display: none;
+}
+
+@media (max-width:1235px) {
+    .default_img_small {
+        display: block;
+        }
+        .default_img {
+            display: none;
+            }
+            .background_laptop {
+                display: none;
+                }
+        .banner_title {
+            margin-top: -10rem !important;
+            padding-right: 1.5rem;
+        }
+        .middle_ban {
+            margin-top: -3rem;
+        }
+}
+@media (max-width:925px) {
+    .right_ban, .left_ban {
+        display: none;
+    }
+}
+@media (max-width:810px) {
+    .middle_ban {
+        margin-top: -8rem;
+    }
+    .banner_title {
+        font-size: 6.2rem !important;
+        margin-top: -9rem !important;
+
+    }
+}
+@media (max-width:700px) {
+    .middle_ban {
+        margin-top: -8rem;
+    }
+    .banner_title {
+        font-size: 5rem !important;
+        margin-top: -7rem !important;
+
+    }
+}
+@media (max-width:600px) {
+    .middle_ban {
+        margin-top: -8rem;
+    }
+    .banner_title {
+        font-size: 4.5rem !important;
+        margin-top: -6rem !important;
+
+    }
+}
+@media (max-width:500px) {
+    .middle_ban {
+        margin-top: -8rem;
+    }
+    .banner_title {
+        font-size: 4rem !important;
+        margin-top: -5rem !important;
+
+    }
+}
+@media (max-width:437px) {
+    .middle_ban {
+        margin-top: -8rem;
+    }
+    .banner_title {
+        font-size: 3.3rem !important;
+        margin-top: -4.4rem !important;
+
+    }
+}
+@media (max-width:374px) {
+    .middle_ban {
+        margin-top: -8rem;
+    }
+    .banner_title {
+        font-size: 3rem !important;
+        margin-top: -4rem !important;
+        padding-right: 0.5rem;
+
+    }
+}
+@media (max-width:338px) {
+    .middle_ban {
+        margin-top: -8rem;
+    }
+    .banner_title {
+        font-size: 2.7rem !important;
+        margin-top: -3.7rem !important;
+        padding-right: 0.5rem;
+
+    }
+}
+@media (max-width:665px) {
+    .wrapper_cards {
+        background-size:unset !important;
+        background-position:top !important;
+        }
 }
 
 @keyframes enlarge {
