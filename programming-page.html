@@ -9,8 +9,14 @@
         rel="stylesheet">
     <title>Направление программистов</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/design.min.css">
+    <link rel="stylesheet" href="css/designPage.css">
+    <link rel="stylesheet" href="css/programmingPage.css">
     <link rel="stylesheet" href="css/programming.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -413,13 +419,355 @@
             </div>
             <div class="header-banner">
                 <!-- Здесь ваш HTML код баннера направления -->
+<div class="wrapper_ban_prog">
+    <div class="title" id="decodeText">
+        ПРОГРАММНОЕ <br> ОБЕСПЕЧЕНИЕ 
+        
+    </div>
+</div>
+
+<script>
+    window.onload = function() {
+    const finalText = "ПРОГРАММНОЕ <br> ОБЕСПЕЧЕНИЕ"; // Текст с HTML тегом <br>
+    const decodeText = document.getElementById('decodeText');
+    
+    let currentIndex = 0;
+    const interval = setInterval(() => {
+        if (currentIndex < finalText.length) {
+            decodeText.innerHTML = finalText.slice(0, currentIndex + 1);
+            currentIndex++;
+        } else {
+            clearInterval(interval);
+            decodeText.style.animation = "fadeIn 1s forwards"; // Анимация появления
+        }
+    }, 80); // Скорость расшифровки
+};
+
+</script>
 
                 <!-- Конец вашего кода -->
             </div>
         </header>
         <main>
             <!-- Здесь ваш HTML код страницы направления -->
-            <div style="height: 400px;"></div>
+            <div class="wrapper_cards">
+                <div class="img_bg">
+                    <!-- <img src="./images/design/bg_cards.svg" alt=""> -->
+
+                </div>
+                <div class="box_info1">
+                    <div class="left-box1">
+                        <div class="title-box1">
+                            ПРОГРАММА НАПРАВЛЕНИЯ <br>
+                            <span>ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ</span>
+
+                        </div>
+                        <div class="info-box1">
+                            <div>
+                                - Направление программного обеспечения
+                                вычислительной техники и автоматизированных
+                                систем предоставляет студентам уникальную
+                                возможность углубленного изучения программной
+                                инженерии и разработки программных продуктов.
+                            </div>
+                            <div>
+                                - Студенты приобретают навыки в создании
+                                высокотехнологичных приложений, осваивают
+                                современные методы тестирования и учатся
+                                эффективно взаимодействовать в команде
+                                разработчиков. Программы обучения направления
+                                способствуют формированию специалистов,
+                                готовых к успешной карьере в сфере
+                                информационных технологий.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-box1">
+                        <img src="./images/progers/img_cards.svg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box_info1">
+                    <div class="left-box2">
+                        <img src="./images/progers/img_cards1.svg" alt="">
+                    </div>
+                    <div class="right-box2">
+                        <div class="title-box1" style="width: 80%;">
+
+                            ПРОГРАММНОЕ
+                            ОБЕСПЕЧЕНИЕ – ЭТО <span>НЕ</span>
+                             ПРОСТО <span>НАБОР КОДА</span>
+                        </div>
+                        <div class="info-box2" style="margin-top: 1rem;">
+                            <div>
+                                Это интеллектуальное творение, которое определяет
+                                будущее технологического прогресса. На направлении
+                                программного обеспечения мы стремимся не только
+                                обучить студентов языкам программирования, но и
+                                вдохновить их на создание инновационных,
+                                эффективных и надежных решений для сложных задач.                            </div>
+                            
+                        
+<div>
+                        Мы уделяем особое внимание развитию практических
+                                навыков, работая над реальными проектами и обучая
+                                студентов современным технологиям, таким как 
+                                искусственный интеллект, облачные вычисления и
+                                мобильная разработка. Наша цель — подготовить
+                                профессионалов.
+                            </div>
+                    </div>
+                </div>
+
+
+                </div>
+            </div>
+            <div class="container_sag">
+                <div class="subcont_sag">
+                <div class="left_sag">
+                    <div class="title_sag">
+                        ПОЧЕМУ СТОИТ ВЫБРАТЬ НАПРАВЛЕНИЕ <span>ПРОГРАММНОГО ОБЕСПЕЧЕНИЯ ?</span> </div>
+                    <div class="value_sag">
+                        <div class="subt_sag">
+                            Программное обеспечение будущего
+                        </div>
+                        <div class="info-sag">
+                           Выбор направления программного обеспечения
+обоснован перспективой владения ключевыми
+навыками, востребованными в современной
+информационной индустрии. </div>
+                    </div>
+
+                    <div class="subt_sag">
+                        Глубокие знания и реальный опыт </div>
+                    <div class="info-sag">
+                        Студенты получат глубокие знания в области программирования, разработки программных продуктов и смогут применять их в решении реальных задач. Кроме того, направление предоставляет уникальные возможности для практического опыта и тесного взаимодействия с ведущими компаниями IT-сферы, что способствует успешному старту в карьере разработчика.
+                    </div>
+
+                    
+                </div>
+                <div class="right_sag">
+                    <img src="./images/progers/img_recom.svg" alt="">
+                </div>
+
+            </div>
+        </div>
+
+            <div class="wrapper_info">
+                <div class="up_info">
+                    <div class="left_subinfo">
+                        <div class="title_subinfo">
+                            О направлении
+                        </div>
+                        <div class="main_subinfo">
+                            <div>
+                                Программа направления «Программное обеспечение вычислительной техники и
+                                автоматизированных систем» в колледже представляет собой комплексное
+                                обучение студентов в области разработки и эксплуатации программного
+                                обеспечения для различных вычислительных систем и автоматизированных
+                                процессов. Она охватывает широкий спектр знаний и навыков, необходимых для
+                                работы в сфере программирования и автоматизации.                            </div>
+                            <div>
+                                Студенты этого направления изучают основы программирования, включая
+                                различные языки программирования, структуры данных и алгоритмы. Особое
+                                внимание уделяется разработке программного обеспечения для встраиваемых
+                                систем и автоматизированных комплексов, что включает изучение специфических
+                                требований и методов разработки для этих областей.                            </div>
+                        </div>
+                    </div>
+                    <div class="right_subinfo">
+                        
+                        <div class="subinfo_right">
+                            <div class="title_subinfo_right">
+                                <img src="./images/design/icon1.svg" alt="">
+                                Студенты освоят:
+                            </div>
+                            <div class="value_right_subinfo">
+                                <div>
+                                    · Основы программирования (Python, JavaScript, Java, C++, Dart);
+                                </div>
+                                <div>
+                                    · Основы автоматизации и управления;
+                                </div>
+                                <div>
+                                    · Принципы проектирования программного обеспечения;
+                                </div>
+                                <div>
+                                    · Методы и средства тестирования и отладки программного
+                                    обеспечения;
+                                </div>
+                                <div>
+                                    · Архитектура вычислительных систем.
+                                </div>
+                               
+
+
+                            </div>
+                        </div>
+                        <div class="subinfo_right">
+                            <div class="title_subinfo_right">
+                                <img src="./images/design/icon2.svg" alt="">
+                                Студенты получат навыки:
+                            </div>
+                            <div class="value_right_subinfo">
+                                <div>
+                                    · Разработка и отладка программного обеспечения для встраиваемых
+                                    систем;
+                                </div>
+                                <div>
+                                    · Работа в команде и решение проблем;
+                                </div>
+                                <div>
+                                    · Работа с системами реального времени;
+                                </div>
+                                <div>
+                                    · Обеспечение защиты программных продуктов и автоматизированных
+                                    систем от киберугроз;
+                                </div>
+                                <div>
+                                    · Разработка и эксплуатация баз данных;
+                                </div>
+                                <div>
+                                    · Проектирование и реализация автоматизированных систем
+                                    управления.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="subinfo_right">
+                            <div class="title_subinfo_right">
+                                <img src="./images/design/icon3.svg" alt="">
+                                Будущая профессия:
+                            </div>
+                            <div class="value_right_subinfo">
+                                <div>
+                                    · Разработчик программного обеспечения
+                                </div>
+                                <div>
+                                    · Специалист по встраиваемым системам
+                                </div>
+                                <div>
+                                    · Инженер-программист
+                                </div>
+                                <div>
+                                    · Администратор баз данных
+                                </div>
+                                <div>
+                                    · Разработчик систем реального времени
+                                </div>
+                                <div>
+                                    · Веб-разработчик
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="down_info">
+                    <div class="up_down_info">
+                        Программа
+                    </div>
+                    <div class="down_down_info2">
+                        <div class="box_down_info2">
+                            <div class="title_downbox">
+                                1 Курс:
+                            </div>
+                            <div class="value_down_box">
+                                <div><span class='red_col'>—</span> Введение в специальность</div>
+                                <div><span class='red_col'>—</span> Общеобразовательные предметы</div>
+                                <div><span class='red_col'>—</span> Основы программирования</div>
+                                <div><span class='red_col'>—</span> Иностранные языки</div>
+
+                            </div>
+                        </div>
+                        <div class="box_down_info2">
+                            <div class="title_downbox">
+                                2 Курс:
+                            </div>
+                            <div class="value_down_box">
+                                <div><span class='red_col'>—</span> Общий гуманитарный цикл</div>
+                                <div><span class='red_col'>—</span> Основы алгоритмизации и программирования</div>
+                                <div><span class='red_col'>—</span> Веб дизайн (Backend, Frontend)</div>
+                                <div><span class='red_col'>—</span> Базы данных (MongoDB, PostgreSQL)</div>
+                                <div><span class='red_col'>—</span> Операционные системы и среды (Windows, Linux,
+                                    Git)</div>
+                                <div><span class='red_col'>—</span> Иностранные языки</div>
+                            </div>
+                            <!-- <div class="box_down_info">
+
+                            </div> -->
+                        </div>
+                        <div class="box_down_info2">
+                            <div class="title_downbox">
+                                3 Курс:
+                            </div>
+                            <div class="value_down_box">
+                                <div><span class='red_col'>—</span> Архитектура ЭВМ и вычислительных систем</div>
+                                <div><span class='red_col'>—</span> Компьютерная графика</div>
+                                <div><span class='red_col'>—</span> Объектно-ориентированное программирование</div>
+                                <div><span class='red_col'>—</span> Основы машинного обучения</div>
+                                <div><span class='red_col'>—</span> Мобильная разработка</div>
+
+                                <div><span class='red_col'>—</span> Иностранные языки</div>
+                            </div>
+                            <div class="box_down_info">
+
+                            </div>
+                        </div>
+                    </div>
+
+<div class="diploma">
+    <div class="title">
+        Диплом направления
+    </div>
+     <img src="./images/progers/diploma_progers.svg" alt="">
+</div>
+
+<div class="dp_info_wrapp">
+    <div class="title">
+        Также узнайте
+    </div>
+    <div class="container_wrap_dp">
+<div class="img_dp">
+    <a href="https://www.instagram.com/reel/C8WFAWdtDjE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+    <img class='img_andrey' src="./images/progers/artur agay.svg" alt="">
+</a>
+</div>
+<div class="value_dp">
+    <div class="title_name">
+        Артур Давлетшин
+    </div>
+    <div class="subt">
+        Учитель программного <br>обеспечени 
+    </div>
+    <div class="info">
+        Заслуженный преподаватель в области прогаммного обеспечения. Успешно обучил более сотни студентов, помогая им освоить современные технологии и добиться успеха в IT-индустрии.
+    </div>
+</div>
+    </div>
+    <div class="container_wrap_dp2">
+       
+        <div class="value_dp">
+            <div class="title_name">
+                Давлет Азимов
+            </div>
+            <div class="subt">
+                Студент программного
+                <br>
+
+                обеспечения
+            </div>
+            <div class="info">
+                талантливый студент факультета программного обеспечения, который стремится развиваться и совершенствоваться в различных аспектах IT сферы.            </div>
+        </div>
+        <div class="img_dp2">
+            <a href="https://www.instagram.com/reel/C8v25WWpbYj/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
+            <img class='img_andrey' src="./images/progers/dava.svg" alt="">
+        </a>
+        </div>
+            </div>
+</div>
+                </div>
             <!-- Конец вашего кода -->
         </main>
         <footer>
